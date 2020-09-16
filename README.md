@@ -1,6 +1,7 @@
+# Please go through the docs.pdf for complete documentation
+
 # Project_DOI_
 ## Search with DOIs and extract the bibliographical details.
-
 ### requirements
 crochet==1.12.0
 Flask==1.1.2
@@ -34,15 +35,6 @@ Sphinx==3.1.2
 
 ## please run doi_app.py
 
-### Created basic layout in flask for searching a doi and can view the biblographical data.
-
-Currently one can search for bibliographical data which belongs to journal articles or
-books published in Springer.com .It will display the data of books and articles separately.
-
-First the dois are searched in database from main.py if the dois are not present in the database 
-dispatcher will connect it to the respected spider.
-
-The data is stored to db
 
 
 
